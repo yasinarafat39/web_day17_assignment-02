@@ -35,12 +35,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 3.5625rem 0 2rem;
 }
 
 .logo {
     font-size: 2.25rem;
     color: var(--primary-color);
     font-weight: 800;
+}
+
+.hamber{
+    color: var(--main-text-color);
+    font-size: 1.125rem;
 }
 
 .navbar ul li {
