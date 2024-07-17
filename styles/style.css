@@ -1,8 +1,7 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+AU+TAS:wght@100..400&display=swap');
 /* font-family: "Inter", sans-serif; */
-
-
+/* font-family: "Playwrite AU TAS", cursive; */
 
 
 
@@ -10,6 +9,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 
 /* shared style */
 
@@ -21,21 +22,62 @@
 }
 
 
+.max-width {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
 body {
-    font-family: "Inter", sans-serif;
     max-width: 1440px;
     margin: 0 auto;
+    font-family: "Inter", sans-serif;
     background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+
+.btn-primary {
+    color: var(--main-text-color);
+    background-color: var(--primary-color);
+    padding: 1rem 2.5rem;
+    border-radius: 2.625rem;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 14px;
+}
+
+.btn-secondary {
+    color: var(--main-text-color);
+    padding: 1rem 2.5rem;
+    border-radius: 2.625rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid var(--main-text-color);
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
 }
 
 /* shared style end */
 
 
+
+/* ------  navbar  ---- */
+
+header {
+    background: linear-gradient(rgba(119, 119, 119, 0.3), rgba(119, 119, 119, 0.1));
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 3.5625rem 0 2rem;
+    padding: 3.5625rem 0 2rem;
 }
 
 .logo {
@@ -44,9 +86,9 @@ body {
     font-weight: 800;
 }
 
-.hamber{
-    color: var(--main-text-color);
+.hamber {
     font-size: 1.125rem;
+    display: none;
 }
 
 .navbar ul li {
@@ -70,7 +112,7 @@ body {
     color: white;
 }
 
-.nav-links li { 
+.nav-links li {
     padding: 8px 20px;
     border-radius: 46px;
 }
@@ -78,3 +120,95 @@ body {
 .nav-links li:nth-child(1) {
     background-color: var(--primary-color);
 }
+
+/* ------- nav end ----- */
+
+
+
+
+
+
+/* ------- nav end ----- */
+
+
+.hero {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-banner {
+    width: 35%;
+    position: relative;
+}
+
+.hero-title {
+    font-size: 4.875rem;
+    font-weight: 900;
+    line-height: 130%;
+}
+
+.hero-title .shape {
+    font-family: "Playwrite AU TAS", cursive;
+}
+
+.hero-description {
+    color: var(--secondary-text-color);
+    line-height: 1.5rem;
+    margin: 1.75rem 0;
+}
+
+
+/* badge */
+
+
+.hero-badge {
+    border: 1px solid #ffffff1a;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    padding: 1.25rem 1.4375rem;
+    width: max-content;
+}
+
+.video-tutorial {
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    position: absolute;
+    left: -113px;
+    bottom: 63px;
+}
+
+.video-tutorial .play-button {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--main-text-color);
+}
+
+.video-tutorial .badge-title {
+    font-size: 1.5rem;
+    font-weight: 900; 
+}
+
+.badge-description {
+    color: var(--secondary-text-color);
+}
+
+.Free-Workout-Videos {
+    position: absolute;
+    top: 125px;
+    right: -74px;
+}
+
+.Free-Workout-Videos .badge-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+ 

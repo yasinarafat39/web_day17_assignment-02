@@ -9,4 +9,8 @@
     .navbar .nav-links{
         display: none;
     }
+
+    .hamber{
+        display: block;
+    }
 }
