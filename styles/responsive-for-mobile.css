@@ -59,4 +59,18 @@
         top: 271px;
         left: 12px;
     }
+
+    /* Habit Section */
+
+
+    .habit-section-header{ 
+        width: 100%;
+    }
+
+    .habit-card-container {
+        margin-top: 58px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
 }

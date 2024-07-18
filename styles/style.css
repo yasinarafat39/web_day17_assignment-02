@@ -27,6 +27,8 @@
     margin: 0 auto;
 }
 
+.padding {}
+
 body {
     max-width: 1440px;
     margin: 0 auto;
@@ -34,6 +36,11 @@ body {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
 }
+
+main {
+    border: 2px solid tomato;
+}
+
 
 
 .btn-primary {
@@ -61,6 +68,10 @@ body {
 
 .flex {
     display: flex;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* shared style end */
@@ -198,7 +209,7 @@ header {
 
 .video-tutorial .badge-title {
     font-size: 1.5rem;
-    font-weight: 900; 
+    font-weight: 900;
 }
 
 .badge-description {
@@ -215,4 +226,57 @@ header {
     font-size: 2.5rem;
     font-weight: 900;
 }
- 
+
+/* Habit section start */
+.habit {
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habit-section-header {
+    width: 41.9375rem;
+}
+
+.habit-section-title {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0 0 14px 0;
+}
+
+.habit-section-description {
+    color: var(--secondary-text-color);
+}
+
+.habit-card-container {
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.habit-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.habit-description{
+    color: var(--secondary-text-color);
+}
+
+.habit-card{ 
+    display: flex;
+    flex-direction: column;
+}
+
+.habit-card > img{
+    border: 2px solid var(--secondary-text-color);
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Habit section end */
