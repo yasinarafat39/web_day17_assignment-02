@@ -2,15 +2,61 @@
 
 @media screen and (max-width: 576px) {
 
-    body{
+    /* ---------------- */
+    body {
         margin: 0 1.25rem;
     }
 
-    .navbar .nav-links{
+    .navbar .nav-links {
         display: none;
     }
 
-    .hamber{
+    .hamber {
         display: block;
+    }
+
+    /* hero section */
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        width: 100%;
+        margin: 0 0 48px;
+    }
+
+    .hero-banner {
+        width: 100%;
+        margin: 0 0 48px;
+    }
+
+    .hero-banner img {
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 2.25rem;
+        font-weight: 900;
+        width: 17.8125rem;
+    }
+
+    .hero-description {
+        width: 17.125rem;
+    }
+
+    .btn-primary {
+        margin: 0 14px 14px 0;
+    }
+
+    .Free-Workout-Videos {
+        top: 47px;
+        right: 13px;
+    }
+
+
+    .video-tutorial {
+        position: absolute;
+        top: 271px;
+        left: 12px;
     }
 }
