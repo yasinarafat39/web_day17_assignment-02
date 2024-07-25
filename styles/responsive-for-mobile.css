@@ -3,7 +3,7 @@
 @media screen and (max-width: 576px) {
 
     /* ---------------- */
-    body {
+    .default-margin-for-mobile {
         margin: 0 1.25rem;
     }
 
@@ -55,15 +55,14 @@
 
 
     .video-tutorial {
-        position: absolute;
-        top: 271px;
+        position: absolute; 
         left: 12px;
     }
 
     /* Habit Section */
 
 
-    .habit-section-header{ 
+    .habit-section-header {
         width: 100%;
     }
 
@@ -73,4 +72,180 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
     }
+
+    /* Habit section end */
+
+
+    /* run section start */
+
+    .run {
+        margin-top: 2.5rem;
+    }
+
+    .run-container {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .run-section-content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .run-section-banner {
+        width: 100%;
+    }
+
+    .join-now-btn {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    /* run section end */
+
+
+
+
+
+    /* Training section start */
+
+    .training-section-container {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .training-header {
+        width: 100%;
+    }
+
+    .training-section-description {
+        margin: 1rem 0 2.5rem;
+        line-height: 1.5rem;
+    }
+
+    #exercise3,
+    #exercise6 {
+        display: none;
+    }
+
+
+    #exercise1 {
+        grid-column: span 6;
+    }
+
+    #exercise2 {
+        grid-column: span 6;
+    }
+
+    #exercise5 {
+        grid-column: span 7;
+    }
+
+    #exercise4 {
+        grid-column: span 5;
+    }
+
+
+    #exercise1>.exercise-title {
+        bottom: 12px;
+        left: 10px;
+    }
+
+    #exercise2>.exercise-title {
+        top: 20px;
+        left: 20px;
+    }
+
+    #exercise4>.exercise-title {
+        bottom: 12px;
+        left: 10px;
+    }
+
+    #exercise5>.exercise-title {
+        bottom: 12px;
+        left: 10px;
+    }
+
+    .exercise-banner .exercise-title {
+        font-size: 14px;
+    }
+
+
+    /* Training section end */
+
+
+
+    /* BMI Calculator section start */
+
+    .bmi-calculator-chart-container { 
+        flex-direction: column; 
+        padding: 1.25rem;
+    }
+
+    .bmi-section-header-area{ 
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    #bmi-weight-status{
+        width: 100%;
+    }
+
+    .your-bmi-calculator{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .calculate-btn{
+        margin-top: 2rem;
+    }
+
+
+
+
+    /* BMI Calculator section end */
+
+
+    /* Our team section start */
+
+    .main-content {
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* Our team section end */
+
+
+
+
+
+
+
+
+    /* Footer section start */
+
+    .footer-item-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin: 0 0 3.125rem;
+    }
+
+    .footer-container {
+        padding: 0 1.25rem;
+    }
+
+    .footer-title {
+        margin-bottom: 1.35rem;
+    }
+
+
+    .footer-each-section {
+        margin: 0 0 1.65rem;
+    }
+
+    .footer-container li a {
+        font-size: 1.5rem;
+    }
+
+    /* Footer section end */
 }
