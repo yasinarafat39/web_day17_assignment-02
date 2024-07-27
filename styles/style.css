@@ -594,7 +594,7 @@ option {
     padding: 10px;
 }
 
-option:nth-child(1):hover{
+option:nth-child(1):hover {
     background: var(--primary-color);
 }
 
@@ -621,10 +621,9 @@ select::placeholder {
 
 /* Meet our team section */
 
-.meet-our-team { 
-}
+.meet-our-team {}
 
-.meet-our-team-heading-content{
+.meet-our-team-heading-content {
     max-width: 671px;
 }
 
@@ -665,7 +664,7 @@ select::placeholder {
     opacity: 0.8;
 }
 
-.team-person .info .name{
+.team-person .info .name {
     font-size: 20px;
 }
 
@@ -694,49 +693,50 @@ select::placeholder {
     background-color: rgba(119, 119, 119, 0.3);
 }
 
-.footer-container>div {
-    padding-top: 35px;
-}
+.footer-container>div {}
 
 
 .footer-item-container {
     display: grid;
     grid-template-columns: 44% repeat(2, 1fr);
-    gap: 7.75rem;
-    margin: 3.125rem 0;
+    gap: 5.75rem;
+    padding: 66px 0 79px;
 }
 
 
 
 .footer-title {
-    margin-bottom: 30px;
-    font-size: 3.75rem;
+    margin-bottom: 20px;
+    font-size: 4.375rem;
 }
 
 .footer-description {
     line-height: 1.6rem;
+    font-size: 14px;
 }
 
 .footer-section-title {
-    margin-bottom: 20px;
+    font-size: 34px;
+    margin-bottom: 39px;
 }
 
 .footer-container li {
     list-style: none;
-    margin: 10px 0;
+    margin: 0 0 20px;
 }
 
 .footer-container li a {
     text-decoration: none;
     color: var(--secondary-text-color);
-    font-size: 1.25rem;
+    font-size: 1.4375rem;
 }
 
 
 .footer {
     border-top: 2px solid rgba(119, 119, 119, 0.3);
-    padding: 20px 0;
+    padding: 36px 0;
     color: var(--secondary-text-color);
+    font-size: 20px;
 }
 
 /* Footer section end */
