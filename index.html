@@ -73,7 +73,7 @@
     <!-- header section end -->
 
     <!-- main Section -->
-    <main>
+    <main class="main">
       <!-- Habit section start -->
       <section class="habit max-width default-margin-for-mobile">
         <div class="habit-section-header">
@@ -155,7 +155,8 @@
         <div class="training-header">
           <h1 class="training-section-title">Trainings and Exercises</h1>
           <p class="training-section-description">
-            We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
           </p>
         </div>
 
@@ -195,10 +196,8 @@
       <!-- Trainings and Exercises end -->
 
       <!-- BMI Calculator section start -->
-      <section
-        class="bmi-calculator-section-container"
-      >
-        <div class="calculator-header-wrapper default-margin-for-mobile ">
+      <section class="bmi-calculator-section-container">
+        <div class="calculator-header-wrapper default-margin-for-mobile">
           <div class="bmi-section-header-area">
             <h1 class="bmi-calculator-section-title">BMI Calculator</h1>
             <p class="bmi-calculator-section-description">
@@ -211,7 +210,6 @@
         <div class="bmi-calculator-container">
           <!-- bmi-calculator-container -->
           <div class="bmi-calculator-chart-container max-width">
-
             <div id="bmi-weight-status">
               <h2 class="bmi-calculator-chart-title">BMI Calculator Chart</h2>
               <table>
@@ -254,20 +252,37 @@
 
               <!-- Calculator -->
               <form>
-                
                 <div class="calculator-input-field">
                   <label for="height">
-                    <input type="number" name="height" id="height" placeholder="Height/cm" required>
+                    <input
+                      type="number"
+                      name="height"
+                      id="height"
+                      placeholder="Height/cm"
+                      required
+                    />
                   </label>
-  
+
                   <label for="weight">
-                    <input type="number" name="weight" id="weight" placeholder="Weight/kg" required>
+                    <input
+                      type="number"
+                      name="weight"
+                      id="weight"
+                      placeholder="Weight/kg"
+                      required
+                    />
                   </label>
-  
+
                   <label for="age">
-                    <input type="number" name="age" id="age" placeholder="Age" required>
+                    <input
+                      type="number"
+                      name="age"
+                      id="age"
+                      placeholder="Age"
+                      required
+                    />
                   </label>
-  
+
                   <label for="sex">
                     <select name="sex" id="sex" aria-placeholder="Sex" required>
                       <option value="male">Male</option>
@@ -275,15 +290,22 @@
                       <option value="others">Others</option>
                     </select>
                   </label>
-  
+
                   <label for="avtivity" id="activity-input-field">
-                    <select name="activity" id="activity" aria-placeholder="Select an activity factor" required>
-                       <option value="">Select an activity factor</option>
+                    <select
+                      name="activity"
+                      id="activity"
+                      aria-placeholder="Select an activity factor"
+                      required
+                    >
+                      <option value="">Select an activity factor</option>
                     </select>
                   </label>
                 </div>
 
-                <button type="submit" class="btn-primary calculate-btn">Calculate</button>
+                <button type="submit" class="btn-primary calculate-btn">
+                  Calculate
+                </button>
               </form>
             </div>
           </div>
@@ -294,11 +316,14 @@
       <!-- Meet our team section start -->
       <section class="meet-our-team max-width default-margin-for-mobile">
         <div class="heading">
-          <h1 class="our-team-section-title text-center">Meet Our Team</h1>
-          <p class="our-team-section-description text-center">
-            We believe fitness should be accessible to everyone, everywhere,
-            regardless of income or access to a gym
-          </p>
+          <div class="meet-our-team-heading-content">
+            <h1 class="our-team-section-title text-center">Meet Our Team</h1>
+            <p class="our-team-section-description text-center">
+              Dedicated Professionals Committed to Excellence and Innovation,
+              Working Together to Achieve Outstanding Results for Our Clients
+              and Community.
+            </p>
+          </div>
         </div>
 
         <main class="main-content">
