@@ -289,9 +289,48 @@
 
     /* Our team section start */
 
-    .main-content {
 
+    .meet-our-team-heading-content {
+        padding: 0 22px;
+    }
+
+    .our-team-section-title {
+        font-size: 2rem;
+    }
+
+    .our-team-section-description {
+        font-size: 14px;
+    }
+
+    .meet-our-team {
+        margin: 66px 0 66px;
+    }
+
+    .meet-our-team .main-content {
+        margin-top: 37px;
+        margin-left: 20px;
+        margin-right: 20px;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    #team-person1,
+    #team-person4 {
+        display: none;
+    }
+
+    #team-person2 {
+        order: 1;
+    }
+
+    #team-person5 {
+        order: 2;
+    }
+
+    #team-person3 {
+        order: 3;
+    }
+    #team-person6 {
+        order: 4;
     }
 
     /* Our team section end */
