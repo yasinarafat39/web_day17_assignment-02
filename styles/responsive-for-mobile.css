@@ -167,15 +167,16 @@
         width: 100%;
     }
 
-    .training-section-title{
+    .training-section-title {
         font-size: 2rem;
     }
+
     .training-section-description {
         margin: 14px 0 38px;
         line-height: 1.5rem;
     }
 
-    .exercise-image-container{
+    .exercise-image-container {
         grid-template-rows: repeat(2, 128px);
     }
 
@@ -243,17 +244,41 @@
         margin-bottom: 2rem;
     }
 
+    .bmi-calculator-section-title {
+        font-size: 2rem;
+    }
+
+    .bmi-calculator-chart-title {
+        margin-bottom: 23px;
+        font-size: 16px;
+    }
+
+    .bmi-calculator-chart-container table td {
+        font-size: 14px;
+    }
+
     #bmi-weight-status {
         width: 100%;
     }
 
+    .calculator-header-title {
+        font-size: 16px;
+    }
+
     .your-bmi-calculator {
         width: 100%;
-        margin-top: 2rem;
+        margin-top: 42px;
+    }
+
+    form input,
+    select {
+        padding: 13px 20px;
     }
 
     .calculate-btn {
-        margin-top: 2rem;
+        margin: 34px 0 43px;
+        padding-left: 4.5rem;
+        padding-right: 4.5rem;
     }
 
 
