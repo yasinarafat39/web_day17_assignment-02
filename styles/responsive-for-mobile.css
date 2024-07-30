@@ -287,6 +287,31 @@
     /* BMI Calculator section end */
 
 
+
+    /* Get With the program start */
+    .get-with-the-program{
+        flex-direction: column;
+    }
+    .program-content{
+        width: 100%; 
+    }
+    
+    .program-banner{
+        width: 100%;
+    }
+
+    .program-title{
+        font-size: 2rem;
+        margin-bottom: 14px;
+    }
+
+    .program-content li{
+        font-size: 16px;
+    }
+    /* Get With the program end */
+
+
+
     /* Our team section start */
 
 

@@ -622,6 +622,60 @@ select::placeholder {
 
 
 
+
+
+
+/* Get With the program start */
+
+.get-with-the-program{ 
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+    margin-bottom: 88px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.program-title{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.program-content ul{
+    margin-bottom: 34px;
+}
+
+.program-content{
+    width: 40%;
+}
+
+.program-banner{
+    width: 40%;
+}
+
+.program-banner img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.program-content li{
+    list-style-type: none;
+    color: var(--secondary-text-color);
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Get With the program end */
+
+
+
+
+
+
+
 /* Meet our team section */
 
 .meet-our-team {}
