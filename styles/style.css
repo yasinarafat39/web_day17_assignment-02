@@ -585,6 +585,7 @@ select {
     width: 100%;
     box-sizing: border-box;
     /* Include padding and border in the input's total width */
+    border-right: 20px solid transparent;
 }
 
 form label {
