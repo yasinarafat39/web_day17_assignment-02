@@ -712,7 +712,7 @@ select::placeholder {
 
 .each_day > h3{
     font-weight: 500;
-    font-size: 1vw;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
