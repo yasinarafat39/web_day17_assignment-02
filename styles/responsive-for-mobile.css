@@ -87,7 +87,7 @@
 
     .video-tutorial {
         left: 17px;
-        bottom: 270px;
+        bottom: 231px;
     }
 
     /* Habit Section */
@@ -204,6 +204,7 @@
 
 
     #exercise1>.exercise-title {
+        color: white;
         bottom: 12px;
         left: 10px;
     }
